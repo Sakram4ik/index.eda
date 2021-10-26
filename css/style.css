@@ -475,6 +475,59 @@ body{
     margin-top: 62px;
     width: 315px;
 }
+.sections-lights{
+    background:#FFFFFF;
+}
+
+.bennefits-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:auto;
+    padding-bottom: 202px;
+}
+.bennefits-title{
+    margin-bottom:52px;
+    margin-top: 96px;
+}
+.bennefits-card{
+    position: relative;
+    display: block;
+    max-width: 270px;
+    min-height: 296px;
+   background: #FFFFFF;
+    border: 1px solid #E9E9E9;
+    box-sizing: border-box;
+    box-shadow: 0 4px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    align-items: center;
+}
+.bennefits-card-title{
+   font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 23px;
+text-align: center;
+color: #000000;
+margin-bottom: 13px;
+}
+.bennefits-card-description{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color: #B9B9BE;
+    max-width: 223px;
+    text-align: center;
+}
+.bennefits-img1{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 34px;
+}
+.distance{
+    padding: 30px;
+}
 .footer{
     padding: 40px 0;
     background: #F6F6F6;
@@ -501,4 +554,55 @@ body{
 .social-link{
     margin-left: 20px;
     text-decoration: none;
+}
+@media(max-width:1260px){
+    .container{
+        max-width: 960px;
+    }
+    .search-form{
+        margin: 0 40px;
+    }
+    .tabs-content{
+        flex-wrap: wrap;
+    }
+    .tabs-card{
+        flex:50%;
+        min-width: calc(50%-30px);
+    }
+}
+@media (max-width:992px){
+    .container{
+        max-width: 750px;
+    }
+    .slide{
+        padding: 60px;
+    }
+    .delivery-card{
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
+        width: calc(50%-60px);
+        padding: 15px 0;
+    }
+    .delivery-image{
+         border-radius: 18px;
+    }
+    .footer-logo{
+        margin-right: 40px;
+    }
+    .tabs-card{
+        min-width: 300px;
+        margin-bottom: 40px ;
+        padding: 0;
+    }
+    .tabs-content{
+        display: flex;
+        justify-content:space-around;
+    }
+    .sweet-basket{
+        min-height: 300px;
+    }
+    .promo{
+        padding-bottom: 30px;
+    }
 }

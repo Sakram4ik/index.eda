@@ -147,16 +147,19 @@ body{
 .slide-summer{
     
     background-image: url('../img/summer.png');
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .slide-vigitables{
     background-image: url('/img/vegitables.png');
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; 
 }
 .slide-autumn{
     background-image: url('../img/autumn.png');
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -483,7 +486,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin:auto;
+    margin:-32px;
     padding-bottom: 202px;
 }
 .bennefits-title{
@@ -501,6 +504,7 @@ body{
     box-shadow: 0 4px 40px rgba(0, 0, 0, 0.1);
     border-radius: 18px;
     align-items: center;
+    margin-left: 32px;
 }
 .bennefits-card-title{
    font-style: normal;
@@ -568,6 +572,10 @@ margin-bottom: 13px;
     .tabs-card{
         flex:50%;
         min-width: calc(50%-30px);
+        margin-bottom: 60px;
+    }
+    .bennefits-content{
+        flex-wrap: wrap;
     }
 }
 @media (max-width:992px){
@@ -604,5 +612,142 @@ margin-bottom: 13px;
     }
     .promo{
         padding-bottom: 30px;
+    }
+    .bennefits-content{
+        flex-wrap: wrap;
+    }
+    .bennefits-card{
+        margin-bottom: 60px;
+        justify-content: space-around;
+    }
+}
+@media(max-width:780px){
+    .container{
+        max-width: 580px;
+    }
+    .promo{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .tabs-card{
+        min-width:400px ;
+    }
+    .bennefits-content{
+        justify-content: space-around;
+        margin-bottom: -130px;
+    }
+    .bennefits-card{
+        min-width: 350px;
+    }
+    .bennefits-card-content{
+        position: relative;
+        padding: 25px;
+    }
+    .footer-logo{
+        max-width: 140px;
+        margin-right: 20px;
+    }
+    .footer-nav{
+        display: flex;
+        min-height: 60px;
+        min-width: 290px;
+        justify-content: space-around;
+    }
+    .footer-link{
+        margin-right: 30px;
+        margin: auto;
+    }
+    .social-link{
+        margin-left: 10px;
+
+    }
+
+}
+@media(max-width:606px){
+    .container{
+    max-width: 410px;
+    }
+    .header{
+        display: block;
+       
+    }
+    .logo-image{
+        max-width: 90px;
+    }
+    .search-form{
+        max-height:34px ;
+        margin: 0;
+    }
+    .auth{
+        position: absolute;
+        max-width: 100px;
+        min-height: 36px;
+        top: 10px;
+        right: 190px;
+        bottom: auto;
+    }
+    .login{
+        max-height: 36px;
+        padding:10px 22px;
+    }
+    .shopping-cart{
+        position: absolute;
+        top: 10px;
+        right: 110px;
+        width: 39px;
+        height: 39px;
+
+    }
+    .slide{
+        max-height: 300px;
+    }
+    .slide-title{
+        font-size: 35px;
+        line-height: 36px;
+    }
+    .slide-text{
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 21px;
+        margin-bottom: 30px;
+    }
+    .button{
+        max-width: 200px;
+        padding: 10px 30px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .tabs-content{
+        margin: auto;
+    }
+    .tabs-card{
+        margin-left: 0;
+    }
+    .bennefits-content{
+        margin: auto;
+    }
+    .bennefits-card{
+        margin-left: 0;
+    }
+    .delivery-card{
+        min-width: 350px;
+        min-height: 220px;
+    }
+    .footer-nav{
+        flex-wrap: wrap;
+        min-width: 180px;
+    }
+    .social-links{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .social-link{
+        margin-bottom: 7px;
+    }
+}
+@media(max-width:420px){
+    .container{
+    max-width: 280px;
     }
 }

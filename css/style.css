@@ -151,8 +151,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.slide-vigitables{
-    background-image: url('/img/vegitables.png');
+.slide-vegitables{
+    background-image: url('../img/vegitables.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; 

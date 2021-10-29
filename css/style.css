@@ -669,22 +669,21 @@ margin-bottom: 13px;
     }
     .header{
         display: block;
-       
     }
     .logo-image{
         max-width: 90px;
     }
     .search-form{
         max-height:34px ;
-        margin: 0;
+        margin:0;
     }
     .auth{
         position: absolute;
         max-width: 100px;
         min-height: 36px;
+        margin-left: auto;
         top: 10px;
-        right: 190px;
-        bottom: auto;
+        right: 137px;
     }
     .login{
         max-height: 36px;
@@ -693,7 +692,7 @@ margin-bottom: 13px;
     .shopping-cart{
         position: absolute;
         top: 10px;
-        right: 110px;
+        right:90px;
         width: 39px;
         height: 39px;
 
@@ -726,6 +725,7 @@ margin-bottom: 13px;
     }
     .bennefits-content{
         margin: auto;
+        margin-bottom: -150px;
     }
     .bennefits-card{
         margin-left: 0;
@@ -734,13 +734,18 @@ margin-bottom: 13px;
         min-width: 350px;
         min-height: 220px;
     }
+    .footer-logo{
+        max-width: 120px;
+    }
     .footer-nav{
         flex-wrap: wrap;
-        min-width: 180px;
+        min-width: 170px;
     }
     .social-links{
         display: flex;
         flex-wrap: wrap;
+        min-width: 100px;
+        justify-content: space-around;
     }
     .social-link{
         margin-bottom: 7px;
@@ -748,6 +753,84 @@ margin-bottom: 13px;
 }
 @media(max-width:420px){
     .container{
-    max-width: 280px;
+    max-width: 300px;
+    }
+    .auth{
+        max-width: 75px;
+        min-height: 35px;
+        right: 108px;
+    }
+    .login{
+        padding: 10px 20px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .shopping-cart{
+        top: 10px;
+        right: 90px;
+        width: 39px;
+        height: 39px;
+        right: 60px;
+    }
+    .slide{
+        min-height: 350px;
+    }
+    .slide-content{
+        margin-left: -40px;
+    }
+    .slide-title {
+    font-size: 27px;
+    line-height: 29px;
+    }
+    .slide-text{
+        font-size: 12px;
+        line-height: 19px;
+    }
+    .button{
+        max-width: 150px;
+        max-height: 40px;
+        padding: 5px 10px;
+        font-weight: 450;
+        font-size: 12px;
+        line-height: 21px;
+    }
+    .slider-buttons{
+        margin-left: auto;
+        right: 20px;
+        bottom: 20px;
+    }
+    .delivery-week{
+        padding: 60px 0;
+    }
+    .delivery-cards{
+        margin: -23px;
+    }
+    .delivery-card{
+        min-width: 300px;
+    }
+    .tabs-item{
+        margin-right: 20px;
+    }
+    .tabs-link{
+        margin-right: -6px;
+    }
+    .tabs-card{
+        min-width: 300px;
+    }
+    .button-center{
+        margin-top: 20px;
+    }
+    .bennefits-card{
+        min-width: 300px;
+    }
+    .footer-logo{
+        max-width: 100px;
+        margin-right: 10px;
+    }
+    .footer-nav{
+        min-width: 150px;
+    }
+    .social-links{
+        min-width: 60px;
     }
 }
